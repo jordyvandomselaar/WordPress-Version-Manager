@@ -1,5 +1,5 @@
 import {connect} from "react-redux"
-import Tabs from "../Tabs/index"
+import Tabs from "../Tabs"
 import {setSelectedVersion} from "../../redux/actions/versions"
 
 const mapStateToProps = state => {

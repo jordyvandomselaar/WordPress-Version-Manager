@@ -1,8 +1,8 @@
 import {connect} from "react-redux"
-import SiteList from "../SiteList/index"
+import SiteList from "../SiteList"
 
 const mapStateToProps = ({sites, versions}) => {
-    const visibleSites = sites.filter(site => site.version === versions.selected || versions.selected === "")
+    const visibleSites = versions.selected === "" ? sites : sites.filter(site => site.version === versions.selected)
 
     return {
         sites: visibleSites,
