@@ -6,7 +6,7 @@ import StyledApp from "./styled/App"
 const App = () =>
     <MuiThemeProvider>
         <StyledApp>
-            <HomeView></HomeView>
+            <HomeView/>
         </StyledApp>
     </MuiThemeProvider>
 

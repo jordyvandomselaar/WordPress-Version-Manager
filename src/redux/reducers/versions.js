@@ -14,8 +14,8 @@ const versionsInitialState = {
 /**
  * Set the selected version to filter on.
  *
- * @param versionState
- * @param action
+ * @param versionsState
+ * @param version
  * @returns {{}}
  */
 const setSelectedVersion = (versionsState, {version}) => updateObject(versionsState, {selected: version})
