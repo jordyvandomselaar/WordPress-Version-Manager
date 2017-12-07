@@ -1,8 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import App from "./components/App"
+import App from "./app/components/App/index"
 import registerServiceWorker from "./registerServiceWorker"
-import Store from "./redux/store"
+import Store from "./app/redux/store/index"
 
 ReactDOM.render(
     <Store>
